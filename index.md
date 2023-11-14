@@ -1,1 +1,13 @@
 
+
+
+## Methods
+
+There is limited avaliability of data from direct experimental analysis which tested spice tolerance across a sufficently large sample size to draw any meaningful conclusions. However, there was one informative study found called *"Why do some like it hot? Genetic and environmental contributions to the pleasantness of oral pungency"* by Outi Törnwall et. al. which assesed the various factors the contibuted to spice preference. The assumption made in this data analysis, which is supported from this paper, is that tolerance and preference are strongly correlated such that we can say that those who have a preference for spice foods likely have a greater tolerance for spice than those who do not enjoy spicy foods. This paper also provides some basic grounds for this analysis as it concluded that genetic factors accounted for 18-58% of the variation in the pleasantness spicy foods. Therefore this analysis aims to specifically correlate spice preference with ethnicity to answer the main investigative question.
+
+As mentioned, there is a lack of avaliability in data sets that would enable us to draw specific and direct conclusions. However, we can indirectly related preference and ethnicity by analysing the top 300 "Best Ethnic Cookbooks" as ranked by users of Goodreads. The link to this list can be found [here.](https://www.goodreads.com/list/show/1922.Best_Ethnic_Cookbooks?page=1) The collection and processing of data is detailed step by step below:
+
+1. The top 300 "Ethnic Cookbooks" were manually pulled from the Goodreads list and inserted into an excell file that contained the ranking, title, and author of the book.
+2. The datasheet underwent subsequent processing to include only the titles of the cookbooks. A list of standardized racial and ethnic classifcations was obtained from Harvard Univserity which basis its classifcation system to be in accordance with the standards mandated by the U.S. Department of Education. That list can be found [here.](https://hr.harvard.edu/files/humanresources/files/race_ethincity_definitions_2014.pdf) A LLM was used to scrape the titles for any relevant keywords that correlated the titles with a specific ethnicity, region of the world, or specific culture and then was asked to match those identifiers to the standardized list provided by Harvard University.
+3. The list of 300 "Ethnic Cookbooks" was trimmed down to 106 based off the inclusion criteria stated above. If there was not sufficent information in the title to connect it with one of the standard ethnic classifcations it was removed from the analysis. The orginigal list can be found here and the cleaned, sorted, and classified list can be found here. 
+
