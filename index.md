@@ -73,8 +73,21 @@ filtered_cookbooks_df.to_excel(excel_save_path, index=False)
 
 
 ## Data Analysis
+Now that the data has been collected we can proceed with a throughouh analysis to uncover any trends found between the spice score and ethnic classifcation. 
+
+## Results
 
 
+## Disscussion
+# Commentary on Results
+
+# Limitations of Study
+
+# Iterative Conversation between Raphael Kalatzis and I
+
+# Limitations of CHAT-GPT as a LLM for Data Analysis
+
+## Conclusion
 
 
 
