@@ -1,3 +1,6 @@
+# How does one’s ethnic descent (ancestry) affect tolerance to spicy foods?
+## Introduction
+After a conversation between Raphael Kalatzis and I, it was determined that a sufficently motivated and interesting data science question would involve determining if there was any correlation between spice tolerance and ethnicity. This specific negotations related to how this question should be best answered is detailed in the disscusion section below. This analysis' main constraint is the avaliability of data so a creative solution to answering this problem must be generated and supported. The use of LLM will aid in the data collection and analysis of this project, while the thoughts, disscusion, and conclusions based on the data will be informed by ongoing conversation between Raphael and myself. By the end of this post, the reader will be able to decern whether there is a relationship between ethnicity and spice toelrance and to what degree is this effect observed. The reader will also be able to see creative principles of data science in action, the importantce of ongoing communication and collaboration, as well as the use and limitations of LLM in a data science project.
 
 
 
@@ -66,7 +69,8 @@ filtered_cookbooks_df = cleaned_cookbooks_df.dropna(subset=['Ethnicity'])
 excel_save_path = '/mnt/data/cleaned_ethnic_cookbooks.xlsx'
 filtered_cookbooks_df.to_excel(excel_save_path, index=False)
 ```
-5.  
+5.  Now that the list of eligible cookbooks has been collated, the titles were manually searched using Google to find book recipie exerpts. These excerpts were then searched for ingredients and the ingredients list was inserted alongside the title of the book in the excel document.
+6.  
 
 
 
