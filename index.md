@@ -187,19 +187,15 @@ We delved deeper into the relationship between specific ingredients and spice sc
 ### Frequency of Ingredients
 The frequency analysis of ingredients within the cookbooks unveiled that ingredients like Onions, Nutmeg, and Garlic were the most common across all ethnic groups. However, the presence of these ingredients did not significantly influence the spice scores, suggesting that they are foundational rather than indicative of spice levels.
 
-
-
-
-
-
 ## Disscussion
-# Commentary on Results
 
-# Limitations of Study
+### Commentary on Results
 
-# Iterative Conversation between Raphael Kalatzis and I
+### Limitations of Study
 
-# Limitations of CHAT-GPT as a LLM for Data Analysis
+### Iterative Conversation between Raphael Kalatzis and I
+
+### Limitations of CHAT-GPT as a LLM for Data Analysis
 
 ## Conclusion
 
