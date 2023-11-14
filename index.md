@@ -77,8 +77,6 @@ Now that the data has been collected we can proceed with a throughouh analysis t
 1. Perform a Statistical Summary: Calculate the mean, median, and standard deviation of spice scores for each ethnic group.
 2. Ethnicity-based Comparison: Use an ANOVA and Tukey-Post Hoc test to compare the spice scores across different ethnicities to see if certain ethnicities tend to have higher or lower spice scores and if they are significant.
 3. Do a more in depth Ingredient Analysis: See if the presence of certain spices like chili peppers or cayenne pepper consistently correlates with higher spice scores.
-4. Visualize the data to show any found relationships in an easy to interpret way.
-5. Draw conclusions.
 
 ### Summary Statistics
 * Asian Cuisine:
@@ -164,7 +162,34 @@ The results of the test are shown below:
 
 As can be seen from the test, there was no significant difference found in any of the groups with an overall p value at 0.2125 which would not be signficant when considering an alpha of 0.05. Despite this conclusion, it is interesting to note the deviations present in each of the ethnic categories. There is also a substantial outlier present in the Asian Ethnic Category which signnifies that there is one particular cookbook with an Asian designation that contains especially spicy recipies. 
 
+### Ingredient Analysis
+
+It was found that the most common ingredients used overall were Onions, Nutmeg, Garlic, Basil, and Rice with  Onions and Nutmeg being the most frequent, appearing in 23 cookbooks each. When analyzed it was found that high spice score groups contained disproportionate amounts of Garlic, Nutmeg, Paprika, and Chilie while low spice score groups contained more sweet ingredients and starches such as Rice, Sweet Potato, Sugar, Cinnaimon, and Salt. The correlations, while insightful, are not strong enough to decisively determine spice levels. This suggests that spice levels in recipes are influenced by a combination of various ingredients and not just a few specific spices. With specific consideration to specific cusine types it was found that:
+* Asian Cuisine was characterized by ingredients like Ginger, Soy Sauce, Coconut Milk, which indicate a preference for moderately spicy flavors, often balanced with sweet or tangy elements. Combinations like Ginger + Soy Sauce or Coconut Milk + Curry Leaves are frequent in higher spice score dishes.
+* Hispanic or Latino Cuisine was characterized by ingredients like Cilantro, Lime, Avocado with lower spice scores suggestesting a focus on fresh, vibrant flavors rather than intense heat. This was a suprising finding and suggests that some of the cookbooks in the list, which was created by popular rating of Goodreads users, might have a preference for more "Americanized" Hispanic food where spice is toned down. Combos like Cilantro + Lime or Beans + Avocado are common in dishes with lower spice scores.
+* White (not of Hispanic origin) Cuisine saw ingredients like Basil, Oregano, Olive Oil with an emphasis on  the use of herbs and aromatic spices rather than heat-inducing ingredients directly. Pairings like Basil + Tomato Paste or Garlic + Olive Oil were found emphasiing the influence of Mediteranian Cusine on the overal data set.
+
+
 ## Results
+
+### Statistical Analysis of Spice Tolerance Across Ethnicities
+We conducted a comprehensive statistical examination to explore variations in spice tolerance across different ethnic cuisines as represented by spice scores in cookbooks. Our dataset included cookbooks categorized under four ethnic groups: White (not of Hispanic origin), Black (not of Hispanic origin), Hispanic or Latino, and Asian.
+
+### ANOVA and Post-hoc Analysis
+An ANOVA test was performed to discern whether there were significant differences in the mean spice scores across the aforementioned ethnic groups. The test yielded an F-value of 1.536, with a P-value of 0.2125, suggesting no statistically significant differences in spice scores between the groups. The absence of significance was further corroborated by Tukey's HSD post-hoc analysis, where all pairwise comparisons between ethnic groups had P-values above the conventional threshold of 0.05.
+
+### Distribution and Variability of Spice Scores
+Despite the lack of statistical significance in mean differences, we visualized the distribution of spice scores using box plots. These plots revealed varied medians and ranges within each ethnic category. The Asian group showed the widest range of spice scores, while the Hispanic or Latino group exhibited the narrowest.
+
+### Correlation Between Ingredients and Spice Scores
+We delved deeper into the relationship between specific ingredients and spice scores. Our correlation analysis indicated that certain ingredients, such as Hoisin Sauce, Ginger, and Cinnamon, exhibited a positive correlation with higher spice scores. Conversely, some ingredients like Onions and Seaweed showed a negative correlation, being more prevalent in cookbooks with lower spice scores.
+
+### Frequency of Ingredients
+The frequency analysis of ingredients within the cookbooks unveiled that ingredients like Onions, Nutmeg, and Garlic were the most common across all ethnic groups. However, the presence of these ingredients did not significantly influence the spice scores, suggesting that they are foundational rather than indicative of spice levels.
+
+
+
+
 
 
 ## Disscussion
@@ -177,6 +202,8 @@ As can be seen from the test, there was no significant difference found in any o
 # Limitations of CHAT-GPT as a LLM for Data Analysis
 
 ## Conclusion
+
+Our analyses suggest that while there are observable differences in the spice scores across ethnic cuisines, these differences are not statistically significant. The ingredient analysis provided insights into the complex interplay between various components that contribute to the spice profiles of ethnic cuisines. The results highlight the rich diversity and multifaceted nature of spice usage, which transcends simple categorizations based on ethnicity.
 
 
 
